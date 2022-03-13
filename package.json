@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/artem-mar/hexlet-js/issues"
   },
-  "homepage": "https://github.com/artem-mar/hexlet-js#readme"
+  "homepage": "https://github.com/artem-mar/hexlet-js#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
