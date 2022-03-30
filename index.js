@@ -1,3 +1,2 @@
 import _ from 'lodash';
-
-console.log(_.last(['one', 'two']));
+import crc32 from 'crc-32'; // хеш-суммa

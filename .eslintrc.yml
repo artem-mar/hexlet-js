@@ -6,4 +6,8 @@ extends:
 parserOptions:
   ecmaVersion: latest
   sourceType: module
-rules: {}
+rules: {
+  "no-restricted-syntax": ["error", "FunctionExpression", "WithStatement", "BinaryExpression[operator='in']"],
+  'no-console': 0,
+  'import/extensions': 0,
+}
